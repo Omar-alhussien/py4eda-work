@@ -21,3 +21,19 @@ The three-stage workflow:
 Working through this assignment helped me understand how Git tracks changes and organizes work in stages.  
 I now see how each commit creates a snapshot of my progress, and how GitHub makes it easy to back up and share my work publicly.  
 This workflow gives me confidence to experiment without worrying about losing files or overwriting previous versions.
+
+## Part 3: GitHub Publishing
+Successfully published repository to GitHub:
+- Used `git remote add origin` to connect local repo to GitHub
+- Used `git push -u origin main` to upload commits
+- Verified all files and commits are visible on GitHub
+### The Remote Connection
+My local repository is now connected to GitHub:
+- `git remote -v` shows the remote URL
+- `git push` will send my commits to GitHub
+- `git pull` will get updates from GitHub (if changes are made on GitHub)
+### Details
+Complete this section with details from your setup:
+- Repository URL: ...
+- Output of `git remote -v`:
+- The output of `git log --oneline`:
