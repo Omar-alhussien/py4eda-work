@@ -97,3 +97,21 @@ A good commit typically:
 
 Examples include adding preprocessing scripts, generating visualizations, or updating documentation. Making commits at these checkpoints ensures a clear and traceable history that supports debugging, collaboration, and professional project management.  
  
+### Graduate Questions  
+
+#### Question 1: The Three-Stage Model  
+
+**a) Value of Separate Commits for Different File Types**  
+Committing the `README.md` and `.gitignore` together first was important because they define the project setup and structure. The `hw3a-solution.md` was committed later to clearly separate the setup phase from the actual assignment work.  
+If all files were committed at once, the commit history would lose clarity, making it difficult to track when the setup was done versus when content development began. Separate commits create a cleaner, more meaningful history.  
+
+**b) Deciding What to Commit and When**  
+In this scenario:  
+- **Commit now:** the typo fix and the README update both are finished and independent.  
+- **Commit separately:** the code to load data it represents a complete and working step.  
+- **Wait to commit:** the half-finished analysis function it should be committed only after it works correctly.  
+
+The staging area allows reviewing and selecting which changes to include in each commit, keeping incomplete work out of the project history.  
+
+**c) Role of `git status` in Workflow Decisions**  
+The `git status` command shows which files are modified, staged, or untracked. It helps confirm what will be included in the next commit. It should be used regularly after editing, before staging, and before committing to ensure only intended and organized changes are recorded.  
