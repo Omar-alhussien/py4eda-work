@@ -106,12 +106,12 @@ Committing the `README.md` and `.gitignore` together first was important because
 If all files were committed at once, the commit history would lose clarity, making it difficult to track when the setup was done versus when content development began. Separate commits create a cleaner, more meaningful history.  
 
 **b) Deciding What to Commit and When**  
-In this scenario:  
-- **Commit now:** the typo fix and the README update both are finished and independent.  
-- **Commit separately:** the code to load data it represents a complete and working step.  
-- **Wait to commit:** the half-finished analysis function it should be committed only after it works correctly.  
+In the described scenario:  
+- **Commit now:** the typo fix in the comment and the README update both are small, completed, and self-contained improvements.  
+- **Wait to commit:** the half-finished analysis function it should only be committed once it performs a specific, testable task.  
+- **Commit separately:** the code to load data as it represents a complete and functional unit of work.  
 
-The staging area allows reviewing and selecting which changes to include in each commit, keeping incomplete work out of the project history.  
+The staging area allows selecting which files to include in each commit, ensuring only meaningful, finished changes are recorded. This prevents incomplete work from cluttering the commit history.  
 
 **c) Role of `git status` in Workflow Decisions**  
 The `git status` command shows which files are modified, staged, or untracked. It helps confirm what will be included in the next commit. It should be used regularly after editing, before staging, and before committing to ensure only intended and organized changes are recorded.  
