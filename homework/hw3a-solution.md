@@ -70,4 +70,30 @@ In future coursework and research projects, I plan to adopt a structured reposit
 - **Individual Assignments:** Each assignment or course project will have its own repository, allowing for isolated development, documentation, and version tracking.  
 - **Group Projects:** Collaborative work will be managed through shared GitHub repositories. Team members will use separate branches and pull requests to maintain a clean and traceable workflow.  
 - **Reference Materials:** Instructor or external resources will be stored in dedicated read-only repositories, ensuring access to official materials while preventing accidental changes.  
-This repository organization approach promotes professionalism, maintains data integrity, and enables efficient collaboration across multiple academic and research environments.  
+This repository organization approach promotes professionalism, maintains data integrity, and enables efficient collaboration across multiple academic and research environments.
+#### Question 3: Commit Messages and History  
+
+**a) Comparing Commit Message Usefulness**  
+Between the two commit messages:  
+
+- `update`  
+- `Add hw3a solution documenting Git workflow and repository structure`  
+
+the second message is significantly more effective. It provides a specific and descriptive summary of the changes, indicating that the commit added the HW3A solution and detailed the Git workflow and repository structure. This level of clarity makes it easier to:  
+
+- Identify the purpose of a commit when reviewing project history.  
+- Locate specific changes without having to open files.  
+- Communicate progress and intent to collaborators or instructors.  
+
+In contrast, a vague message such as `update` provides no context and has little value during troubleshooting or project reviews. If I needed to revisit the commit that introduced the HW3A documentation, the detailed message would allow for quick and accurate retrieval of that information.  
+
+**b) Deciding When to Commit in a Data Analysis Project**  
+In a multi-week data analysis project, commits should be made at logical milestones that represent a complete and meaningful task. Each commit should keep the project functional and focus on one clear purpose.  
+
+A good commit typically:  
+- Completes a specific step, such as data cleaning or model training.  
+- Leaves the project in a working state.  
+- Groups related edits rather than mixing unrelated changes.  
+
+Examples include adding preprocessing scripts, generating visualizations, or updating documentation. Making commits at these checkpoints ensures a clear and traceable history that supports debugging, collaboration, and professional project management.  
+ 
