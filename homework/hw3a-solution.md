@@ -37,3 +37,21 @@ Complete this section with details from your setup:
 - Repository URL: ...
 - Output of `git remote -v`:
 - The output of `git log --oneline`:
+## Questions 
+### Reflections
+
+#### Question 1: Git Workflow Benefits  
+
+**a) Comparison of Version Management Approaches**  
+Before this assignment, I typically managed different versions of my work by manually saving multiple copies of files or maintaining separate folders labeled with names such as *“final_version”*. This approach often led to confusion about which version contained the most recent or correct edits.  
+
+In contrast, Git provides a structured and reliable version control system that offers several key advantages:  
+1. **Comprehensive Version History:**  
+2. **Efficient Collaboration:**  
+3. **Secure Backup and Accessibility:** 
+
+**b) Application of Commit History in Professional Context**  
+During a prior academic project involving data analysis and technical reporting, I frequently made extensive revisions to both code and documentation. Without a version control system, it was challenging to identify when specific changes were made or to revert to earlier drafts when errors occurred.  
+
+If Git had been used, the **commit history** would have served as a clear chronological record of modifications, allowing me to trace the origin of issues, justify changes, and restore stable versions efficiently. This would have enhanced both productivity and accountability throughout the project’s development process.  
+
