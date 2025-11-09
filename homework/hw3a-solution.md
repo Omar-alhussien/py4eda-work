@@ -137,11 +137,11 @@ You can pull from `class_repo` but not push to it because it is read-only owned 
 
 **a) Deciding What to Commit**  
 When committing to a public portfolio repository, it’s important to include work that reflects both technical growth and professionalism. Early drafts or experimental code can be valuable for showing progress, but they should be clearly labeled or kept on separate branches.  
-The main branch should highlight well documented and functional work that demonstrates competence. Balancing learning history with final polished results gives viewers insight into both problem-solving ability and attention to quality.  
+The main branch should highlight well documented and functional work that demonstrates competence. Balancing learning history with final polished results gives viewers insight into both problem solving ability and attention to quality.  
 
 **b) Effective README for a Portfolio Repository**  
 A portfolio README should introduce who I am, summarize my technical skills, and highlight key projects with clear links and short descriptions. It should be visually clean, professional, and focused on showcasing achievements and areas of expertise.  
-In contrast, a README for an open-source project focuses on usability it includes installation instructions, usage examples, and contribution guidelines. A portfolio README, instead, tells my professional story and invites collaboration or networking.  
+In contrast, a README for an open source project focuses on usability it includes installation instructions, usage examples, and contribution guidelines. A portfolio README, instead, tells my professional story and invites collaboration or networking.  
 
 **c) Building a Public Portfolio Early**  
 Creating and maintaining a public portfolio during coursework allows steady growth rather than rushed updates later. It helps track progress, build credibility, and demonstrate consistency over time.  
