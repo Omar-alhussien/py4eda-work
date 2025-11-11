@@ -42,18 +42,18 @@ Complete this section with details from your setup:
 
 #### Question 1: Git Workflow Benefits  
 
-**a) Comparison of Version Management Approaches**  
-Before this assignment, I typically managed different versions of my work by manually saving multiple copies of files or maintaining separate folders labeled with names such as *“final_version”*. This approach often led to confusion about which version contained the most recent or correct edits.  
+a) Comparison of Version Management Approaches  
 
-In contrast, Git provides a structured and reliable version control system that offers several key advantages:  
-1. **Comprehensive Version History:**  
-2. **Efficient Collaboration:**  
-3. **Secure Backup and Accessibility:** 
+Before this assignment, I normally did version control by saving multiple copies of files or making separate folders with names like “final_version”. This usually leads to a lot of confusion as to which one includes my most recent or correct edits.
+Working with Git offers a structured and sound version control system that has numerous key advantages:
 
-**b) Application of Commit History in Professional Context**  
-During a prior academic project involving data analysis and technical reporting, I frequently made extensive revisions to both code and documentation. Without a version control system, it was challenging to identify when specific changes were made or to revert to earlier drafts when errors occurred.  
+- Comprehensive Version History:
+- Efficient Collaboration:
+- Back up safely and access:
 
-If Git had been used, the **commit history** would have served as a clear chronological record of modifications, allowing me to trace the origin of issues, justify changes, and restore stable versions efficiently. This would have enhanced both productivity and accountability throughout the project’s development process.  
+b) Application of Commit History in Professional Context
+In one of my previous projects related to data analysis and technical reporting, I used to make extended edits in code and documentation quite often. Without version control at that time, it was cumbersome to search for when some particular changes were made or, in cases of errors, go back to earlier drafts. If Git had been used, the commit history would clearly record modifications made in chronological order, thereby enabling me to track where and why issues have occurred, provide evidence for changes, and restore stable versions with ease and efficiency. In this way, Git would have greatly enhanced both my productivity and accountability throughout the development process.
+If Git had been used, the commit history would have served as a clear chronological record of modifications, allowing me to trace the origin of issues, justify changes, and restore stable versions efficiently. This would have enhanced both productivity and accountability throughout the project’s development process.  
 
 #### Question 2: Repository Organization  
 
