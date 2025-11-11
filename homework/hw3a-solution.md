@@ -101,50 +101,61 @@ Examples include adding preprocessing scripts, generating visualizations, or upd
 
 #### Question 1: The Three-Stage Model  
 
-a) Value of Separate Commits for Different File Types  
-Committing the `README.md` and `.gitignore` together first was important because they define the project setup and structure. The `hw3a-solution.md` was committed later to clearly separate the setup phase from the actual assignment work.  
-If all files were committed at once, the commit history would lose clarity, making it difficult to track when the setup was done versus when content development began. Separate commits create a cleaner, more meaningful history.  
+a) Value of Separate Commits for Different File Types
 
-b) Deciding What to Commit and When**  
-In the described scenario:  
-- Commit now: the typo fix in the comment and the README update both are small, completed, and self-contained improvements.  
-- Wait to commit: the half-finished analysis function it should only be committed once it performs a specific, testable task.  
-- Commit separately: the code to load data as it represents a complete and functional unit of work.  
+Committing the `README.md` and `.gitignore` together first was important, as they define the setup and structure for the project. Then, the actual assignment work would be clearly separated out in a later commit for `hw3a-solution.md`.
+This avoids the condition where, if all files had been committed at once, the commit history would be unclear as to when the setup was done versus when the development of content started. Hence, separate commits provide a cleaner history that is more meaningful.
 
-The staging area allows selecting which files to include in each commit, ensuring only meaningful, finished changes are recorded. This prevents incomplete work from cluttering the commit history.  
+b) Deciding What to Commit and When
+In the situation described:
 
-c) Role of `git status` in Workflow Decisions  
-The `git status` command shows which files are modified, staged, or untracked. It helps confirm what will be included in the next commit. It should be used regularly after editing, before staging, and before committing to ensure only intended and organized changes are recorded.  
+- Commit now: the typo fix in the comment and the update of README both are small improvements; they're finished and self-contained.
+- Wait to commit: that half-finished analysis function should only be committed once it does one specific, testable thing.
+- Commit separately: the code to load data, as it represents a complete and functional unit of work.
+
+The staging area provides an opportunity to select which files will go into each commit. Therefore, only meaningful, accomplished changes will be recorded, preventing incomplete work from cluttering up the commit history.
+
+c) Role of `git status` in Workflow Decisions
+
+The `git status` command reveals modifications, staging, and untracked files. It confirms what will be included within the next commit. It should be used very frequently after editing, before staging, and before committing to make sure that only intended and organized changes are tracked.
+ 
 
 #### Question 2: Local vs. Remote Repositories  
 
-a) Meaning of Distributed Version Control  
-Git is a distributed version control system because every local repository contains the full project history, not just the latest version. This means work can continue independently on each computer, and changes can later be shared or merged through remote repositories like GitHub.  
-This differs from Google Drive or Dropbox, which only store single copies of files in the cloud. Git, by contrast, tracks detailed version histories, supports branching, and manages merges between different contributors’ work.  
+a) Meaning of Distributed Version Control
 
-b) Value of Local and Remote Architecture  
-Being able to work locally without an internet connection allows developers to make commits, view history, and experiment safely on their machines. When the internet becomes available, they can push updates to the remote repository.  
-This architecture supports flexible workflows such as offline development, version tracking across multiple devices, and collaborative projects where team members contribute asynchronously from different locations.  
+Git is a distributed version control system because every local repository contains the full project history, not just the latest version. That means each computer can continue working independently, and changes can later be shared or merged through remote repositories like GitHub.
+This contrasts with Google Drive or Dropbox, which store only single copies of files in the cloud. Git keeps detailed version histories, allows for branching, and manages merges between different contributors' work.
 
-c) Relationship Between `git clone`, `git pull`, and `git push`  
-- `git clone` creates a local copy of a remote repository.  
-- `git pull` updates the local repository with the latest changes from the remote.  
-- `git push` uploads local commits to the remote repository.  
+b) Value of Local and Remote Architecture
 
-You can pull from `class_repo` but not push to it because it is read-only owned by the instructor. In contrast, `my_repo` is your personal repository, where you have full permission to both pull and push changes. This distinction maintains control and prevents unauthorized edits to shared reference materials.  
+This allows developers to work locally when an Internet connection is unavailable. They can commit, see history, try things out in a safe manner on their machines, and then push those updates to the remote repository when the Internet is available.
+It supports flexible workflows such as offline development, version tracking across several devices, and collaborative projects where team members contribute asynchronously from different locations.
+
+c) Relationship Between git clone, git pull, and git push
+
+- `git clone` makes a local copy of a remote repository.
+
+- The command `git pull` updates your repository with the most up-to-date content from the server.
+
+- `git push` pushes local commits onto the remote repository.
+
+class_repo is owned by the instructor and is read-only, so you can pull from it, but you can't push changes back. You do, however, have complete permission to pull and push changes to my_repo, which is your own personal repository. This allows for control and prevents unauthorized edits to shared reference materials. 
 
 #### Question 3: Professional Portfolio  
 
-a) Deciding What to Commit  
-When committing to a public portfolio repository, it’s important to include work that reflects both technical growth and professionalism. Early drafts or experimental code can be valuable for showing progress, but they should be clearly labeled or kept on separate branches.  
-The main branch should highlight well documented and functional work that demonstrates competence. Balancing learning history with final polished results gives viewers insight into both problem solving ability and attention to quality.  
+a) Deciding What to Commit
 
-b) Effective README for a Portfolio Repository  
-A portfolio README should introduce who I am, summarize my technical skills, and highlight key projects with clear links and short descriptions. It should be visually clean, professional, and focused on showcasing achievements and areas of expertise.  
-In contrast, a README for an open source project focuses on usability it includes installation instructions, usage examples, and contribution guidelines. A portfolio README, instead, tells my professional story and invites collaboration or networking.  
+If you're committing to a public portfolio repository, you'll want to include work that reflects both technical growth and professionalism. It's great to show progress by including earlier drafts or experimental code, but those parts should be clearly labeled or relegated to different branches.
+It showcases well-documented, functional work that is indicative of competence. It's a balance between learning history and final polished results that gives insight into problem-solving ability and attention to quality.
 
-c) Building a Public Portfolio Early   
-Creating and maintaining a public portfolio during coursework allows steady growth rather than rushed updates later. It helps track progress, build credibility, and demonstrate consistency over time.  
-Good habits to develop include writing meaningful commit messages, maintaining clear documentation, updating projects regularly, and ensuring repositories remain organized and professional. These habits make the portfolio a strong asset when applying for internships, research positions, or future employment.  
+b) README for a Portfolio Repository
 
+A README for my portfolio should introduce who I am, summarize my technical skills, and highlight key projects with clear links and short descriptions. It should be visually clean, professional, and focused on showcasing achievements and areas of expertise.
+In contrast, a README for an open source project focuses on usability: it includes installation instructions, usage examples, and contribution guidelines. A portfolio README tells my professional story and invites collaboration or networking.
+
+c) Building a Public Portfolio Early
+
+A public portfolio created and maintained over the course of the curriculum ensures incremental progress, rather than an all-at-once, final push. It provides a record of progress and helps the graduate build credibility while demonstrating consistency of performance over time.
+Good habits to develop include writing meaningful commit messages, maintaining clear documentation, updating projects regularly, and ensuring repositories remain organized and professional. These habits make the portfolio a strong asset when applying for internships, research positions, or future employment.
 
