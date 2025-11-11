@@ -94,7 +94,6 @@ A good commit typically:
 
 - Groups related edits, instead of mixing unrelated changes.
 
-Examples include adding preprocessing scripts, generating visualizations, or updating documentation. Creating commits at these checkpoints enables one to track the history clearly and effortlessly for debugging, collaboration, and professional management of projects.
 
  
 ### Graduate Questions  
