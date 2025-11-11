@@ -55,47 +55,47 @@ b) Application of Commit History in Professional Context
 In one of my previous projects related to data analysis and technical reporting, I used to make extended edits in code and documentation quite often. Without version control at that time, it was cumbersome to search for when some particular changes were made or, in cases of errors, go back to earlier drafts. If Git had been used, the commit history would clearly record modifications made in chronological order, thereby enabling me to track where and why issues have occurred, provide evidence for changes, and restore stable versions with ease and efficiency. In this way, Git would have greatly enhanced both my productivity and accountability throughout the development process.
 If Git had been used, the commit history would have served as a clear chronological record of modifications, allowing me to trace the origin of issues, justify changes, and restore stable versions efficiently. This would have enhanced both productivity and accountability throughout the project’s development process.  
 
-#### Question 2: Repository Organization  
+#### Question 2: Repository Organization
+a) Importance of Maintaining Separate Repositories
+It will be important to maintain class_repo and my_repo as separate entities for the purposes of organization, integrity in version control, and clarity of workflow. This class_repo would act as a kind of read-only reference, containing instructor-supplied materials so that original content is not modified. On the other hand, my_repo will serve as a personal workspace where I apply concepts, complete assignments, and even push updates without impacting shared instructional resources.
+Various complications may be faced if both repositories are put together:
 
-**a) Importance of Maintaining Separate Repositories**  
-Keeping the `class_repo` and `my_repo` separate is essential for maintaining organization, version control integrity, and workflow clarity. The `class_repo` functions as a read-only reference that contains instructor provided materials, ensuring the original content remains intact. In contrast, the `my_repo` serves as a personal workspace where I can apply concepts, complete assignments, and push updates without affecting the shared instructional resources.  
+- Integrity of content: Instructor materials have the potential to be inadvertently changed or deleted, causing confusion or errors.
+- Difficulty tracking contributions: Mixing the reference files with personal work would make it difficult to track which changes came from me versus the instructor.
+- Reduced workflow efficiency: Collaboration, version tracking, and future updates would be disorganized and error-prone.
 
-If both repositories were combined, several complications could occur:  
-1. **Loss of content integrity:** Instructor materials might be accidentally modified or deleted, resulting in confusion or errors.  
-2. **Difficulty tracking contributions:** Mixing reference files with personal work would make it harder to identify which changes originated from me versus the instructor.  
-3. **Reduced workflow efficiency:** Collaboration, version tracking, and future updates would become disorganized and error-prone.  
+b) Organization of Repositories for Future Academic and Professional Work
+In future coursework and research projects, I will follow a structured repository strategy in order to support clarity, collaboration, and scalability:
+- Individual Assignments: Each assignment or course project would be given its own repository, enabling isolated development, documentation, and version tracking.
+- Group Projects: The collaborative work will be managed via shared GitHub repositories. Team members will create separate branches and pull requests to maintain a clean and traceable workflow.
+- Reference Material: All instructor or external resources will be kept in separate read-only repositories; that way, the official materials can be accessed but not accidentally changed.
 
-**b) Organizing Repositories for Future Academic and Professional Work**  
-In future coursework and research projects, I plan to adopt a structured repository strategy to support clarity, collaboration, and scalability:  
-- **Individual Assignments:** Each assignment or course project will have its own repository, allowing for isolated development, documentation, and version tracking.  
-- **Group Projects:** Collaborative work will be managed through shared GitHub repositories. Team members will use separate branches and pull requests to maintain a clean and traceable workflow.  
-- **Reference Materials:** Instructor or external resources will be stored in dedicated read-only repositories, ensuring access to official materials while preventing accidental changes.  
-This repository organization approach promotes professionalism, maintains data integrity, and enables efficient collaboration across multiple academic and research environments.
-#### Question 3: Commit Messages and History  
 
-**a) Comparing Commit Message Usefulness**  
-Between the two commit messages:  
+#### Question 3: Commit Messages and History
 
-- `update`  
-- `Add hw3a solution documenting Git workflow and repository structure`  
+a) Comparing Utility of Commit Messages
+Between the two commit messages:
 
-the second message is significantly more effective. It provides a specific and descriptive summary of the changes, indicating that the commit added the HW3A solution and detailed the Git workflow and repository structure. This level of clarity makes it easier to:  
+- `update`
 
-- Identify the purpose of a commit when reviewing project history.  
-- Locate specific changes without having to open files.  
-- Communicate progress and intent to collaborators or instructors.  
+- `Add hw3a solution documenting Git workflow and repository structure`
 
-In contrast, a vague message such as `update` provides no context and has little value during troubleshooting or project reviews. If I needed to revisit the commit that introduced the HW3A documentation, the detailed message would allow for quick and accurate retrieval of that information.  
+the second message is far superior. It summarizes the changes far more precisely and descriptively, even including that the commit added the solution to HW3A, and detailed the workflow and repository structure in Git. It's a lot easier to Understand the purpose of a commit when reviewing project history,find out particular changes without opening the files, and communicate progress and intent to collaborators or instructors. 
+In contrast, a generic message like update has no context and serves little purpose in troubleshooting or project reviews. If I wanted to revisit the commit that introduced the HW3A documentation, the detailed message would allow me to get that information quickly and accurately.
 
-**b) Deciding When to Commit in a Data Analysis Project**  
-In a multi-week data analysis project, commits should be made at logical milestones that represent a complete and meaningful task. Each commit should keep the project functional and focus on one clear purpose.  
+b) Deciding When to Commit in a Data Analysis Project
+In a multiweek data analysis project, commits should be made at logical milestones representing complete and meaningful tasks. Each commit should maintain a functional state of the project and should concentrate on one clear purpose.
 
-A good commit typically:  
-- Completes a specific step, such as data cleaning or model training.  
-- Leaves the project in a working state.  
-- Groups related edits rather than mixing unrelated changes.  
+A good commit typically:
 
-Examples include adding preprocessing scripts, generating visualizations, or updating documentation. Making commits at these checkpoints ensures a clear and traceable history that supports debugging, collaboration, and professional project management.  
+- Performs a concrete step, for instance data cleaning or model training.
+
+- Leaves the project in a working state.
+
+- Groups related edits, instead of mixing unrelated changes.
+
+Examples include adding preprocessing scripts, generating visualizations, or updating documentation. Creating commits at these checkpoints enables one to track the history clearly and effortlessly for debugging, collaboration, and professional management of projects.
+
  
 ### Graduate Questions  
 
